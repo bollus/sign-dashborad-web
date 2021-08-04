@@ -2,8 +2,7 @@
   <a-layout-content style="padding: 0 50px">
     <a-breadcrumb style="margin: 16px 0">
       <a-breadcrumb-item>Home</a-breadcrumb-item>
-      <a-breadcrumb-item>List</a-breadcrumb-item>
-      <a-breadcrumb-item>App</a-breadcrumb-item>
+      <a-breadcrumb-item>Server</a-breadcrumb-item>
     </a-breadcrumb>
     <a-layout style="padding: 24px 0; background: #fff">
       <a-layout-sider width="200" style="background: #fff">
@@ -16,12 +15,12 @@
           <a-sub-menu key="sub1">
             <span slot="title"><a-icon type="user"/>subnav 1</span>
             <a-menu-item key="1">
-              <router-link  to="/home" >
+              <router-link  to="/server/home" >
               option1
               </router-link>
             </a-menu-item>
             <a-menu-item key="2">
-              <router-link  to="/content/about" >
+              <router-link  to="/server/about" >
               option2
               </router-link>
             </a-menu-item>

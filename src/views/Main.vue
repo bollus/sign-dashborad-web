@@ -2,7 +2,7 @@
   <a-layout id="components-layout-demo-top-side">
     <Header></Header>
 <!--    <Main></Main>-->
-    <router-view/>
+    <router-view name="content"/>
     <Footer></Footer>
   </a-layout>
 </template>

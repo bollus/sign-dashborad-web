@@ -9,12 +9,12 @@
         :style="{ lineHeight: '64px'}"
     >
       <a-menu-item key="1">
-        <router-link to="/Content">
+        <router-link to="/about">
           概览
         </router-link>
       </a-menu-item>
       <a-menu-item key="2">
-        <router-link to="/about">
+        <router-link to="/server">
           服务器
         </router-link>
       </a-menu-item>
